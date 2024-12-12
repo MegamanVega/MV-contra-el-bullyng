@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.nosotros{
+	background: #DDE8C1;
+	height: 500px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.texto{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center; 
+}
+
+.texto img{
+	width:15rem;
+}
