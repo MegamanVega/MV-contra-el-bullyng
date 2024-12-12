@@ -38,7 +38,7 @@
 	}
 }
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:1000px){
 	.banner{
 		height:50vh;
 	}
