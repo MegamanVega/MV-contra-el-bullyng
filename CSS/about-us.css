@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .nosotros{
-	background: #DDE8C1;
+	background:#C1E8D1;
 	height: 50vh;
 	text-align: center;
 	padding: .1px;
@@ -31,9 +31,15 @@
 }
 @media only screen and (min-width:1000px){
 	.nosotros{
-		height:50vh;
+		height:60vh;
+	}
+	.texto{
+		margin-top:3em;
+	}
+	.texto p{
+		font-size: 2rem;
 	}
 	.texto img{
-		width: 100%;
+		width: 60%;
 	}
 }
