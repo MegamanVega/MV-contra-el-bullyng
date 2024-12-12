@@ -1,6 +1,10 @@
 @charset "utf-8";
 .banner{
 	height: 60vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 }
 .banner1{
 	position: relative;
@@ -16,12 +20,11 @@
 	width: 100%;
 }
 .circulo img{
-	width: 60%;
+	width: 80%;
 	
 }
 .banner p{
-	margin: 1em 0em; 
-    font-size:1rem;
+    font-size:2rem;
 }
 /*
 .circles{
