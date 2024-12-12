@@ -2,21 +2,34 @@
 
 .nosotros{
 	background: #DDE8C1;
-	height: 500px;
+	height: 50vh;
 	text-align: center;
-	justify-content: center;
-	align-items: center;
+	padding: .1px;
 }
 
-
+.titulo{
+	font-weight: bold;
+	font-size: 3rem;
+	margin-top: 5%;
+}
 
 .texto{
 	display: flex;
-	flex-direction:row;
+	flex-direction:column;
 	justify-content:center;
 	align-items:center; 
 }
-
+.texto p{
+	font-size:2.5rem ;
+}
 .texto img{
-	width:15rem;
+	width:70%;
+}
+@media only screen and (min-width:1000px){
+	.nosotros{
+		height:50vh;
+	}
+	.texto img{
+		width: 100%;
+	}
 }
