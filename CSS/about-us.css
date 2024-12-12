@@ -5,15 +5,17 @@
 	height: 50vh;
 	text-align: center;
 	padding: .1px;
+	
 }
-
+/*
 .titulo{
 	font-weight: bold;
 	font-size: 3rem;
 	margin-top: 5%;
 }
-
+*/
 .texto{
+	margin-top: 11%;
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
