@@ -21,6 +21,8 @@
 }
 .texto p{
 	font-size:2.5rem ;
+	font-family: "Poiret One", sans-serif;
+	font-weight: bold;
 }
 .texto img{
 	width:90%;
