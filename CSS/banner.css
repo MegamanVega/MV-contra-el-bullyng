@@ -1,13 +1,14 @@
 @charset "utf-8";
 .banner{
-	height: 30vh;
+	height: 40vh;
 	align-items: center;
-	justify-content: center;
+	justify-content:center;
 	display: flex;
 	flex-direction: column;
 }
 .banner1{
 	position: relative;
+	padding-bottom: 2em
 
 }
 
@@ -20,13 +21,13 @@
 	width: 100%;
 }
 .circulo img{
-	width: 80%;
+	width: 90%;
 	
 }
 .banner p{
-    font-size:2rem;
+    font-size:3rem;
 }
-/*
+
 .circles{
 	animation: turn1 15s linear infinite;
 }
@@ -35,9 +36,9 @@
 	to{
 		transform: rotate(1turn);
 	}
-}*/
+}
 
-@media only screen and (min-width:720px){
+@media only screen and (min-width:721px){
 	.banner{
 		height:50vh;
 	}
