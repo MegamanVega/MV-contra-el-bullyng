@@ -15,7 +15,7 @@
 }
 */
 .texto{
-	margin-top: 15%;
+	margin: 15% 0;
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
